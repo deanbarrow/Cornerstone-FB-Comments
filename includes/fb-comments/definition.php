@@ -4,11 +4,7 @@ class FB_Comments {
 	public function ui() {
 		return array(
       'title'       => __( 'Facebook  Comments', 'fb-comments' ),
-      'autofocus' => array(
-    		'heading' => 'h4.fb-comments-element-heading',
-    		'content' => '.fb-comments'
-    	),
-    	'icon_group' => 'fb-comments'
+      'icon_group' => 'fb-comments'
     );
 	}
 	
